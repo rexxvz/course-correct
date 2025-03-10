@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corse Correct</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Corse Correct</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Corse Correct is your one-stop solution for making studying easier and staying organized. Our platform offers a variety of tools and resources designed to help you excel in your academic journey.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for any queries or support. We’re here to help!</p>
+        <!-- Contact form -->
+        <form action="submit_contact_form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="data-collection">
+        <h2>Data Collection</h2>
+        <form action="submit_data" method="post">
+            <label for="subjects">Subjects:</label>
+            <input type="text" id="subjects" name="subjects" required>
+            <label for="grade">Grade Level:</label>
+            <input type="text" id="grade" name="grade" required>
+            <label for="schedule">School Schedule:</label>
+            <textarea id="schedule" name="schedule" required></textarea>
+            <label for="online-activities">Online Activities Schedule:</label>
+            <textarea id="online-activities" name="online-activities" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="personalized-schedule">
+        <h2>Personalized Schedule</h2>
+        <p>Once we have collected all the necessary information, our advanced AI will generate a personalized schedule for you. This schedule will include study sessions, assignments & tests, and breaks & leisure time.</p>
+    </section>
+
+    <section id="progress-tracking">
+        <h2>Progress Tracking & Reminders</h2>
+        <p>Stay on top of your studies with our progress tracking and reminder features. Use the Blue Mark System to check off subjects and tasks as you complete them. If there are any unchecked items, our system will send you reminder notifications.</p>
+    </section>
+
+    <section id="additional-features">
+        <h2>Additional Features</h2>
+        <p>To enhance your study experience, we also offer:</p>
+        <ul>
+            <li>Resource Library</li>
+            <li>Study Groups</li>
+            <li>Expert Help</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Corse Correct. All Rights Reserved.</p>
+        <ul>
+            <li><a href="#privacy-policy">Privacy Policy</a></li>
+            <li><a href="#terms-of-service">Terms of Service</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
